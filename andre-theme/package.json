@@ -15,7 +15,7 @@
   "engines": {
     "vscode": "^1.22.0"
   },
-  "categories": ["themes"],
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
