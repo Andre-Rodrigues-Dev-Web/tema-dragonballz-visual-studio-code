@@ -1,0 +1,35 @@
+{
+  "name": "andre-theme",
+  "author": "André Laurentino Rodrigues",
+  "version": "0.0.0",
+  "description": "Tema legal para o Visual Studio Code",
+  "displayName": "Tema do André",
+  "keywords": [
+    "Tema do André",
+    "Tema André Laurentino",
+    "Tema do André Laurentino Rodrigues",
+    "Tema legal para Visual Studio Code"
+  ],
+  "license": "MIT",
+  "publisher": "AndreLaurentinoRodrigues",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tema André",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tema-andre.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
